@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Topics example in this repo is covering
+
+#### Events
+
+#### Show a simple example on using onClick, In React we have to use camelCase with the event functions
+
+#### We use onClick and not onclick for example
+#### Check the example
