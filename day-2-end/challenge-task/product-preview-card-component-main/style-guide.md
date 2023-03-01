@@ -1,6 +1,6 @@
 # Front-end Style Guide
 
-## Layout
+## Container
 
 The designs were created to the following widths:
 
