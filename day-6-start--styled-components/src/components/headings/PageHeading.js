@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-const PageHeading = styled.h2`
-  color: #2d919a;
+const PageHeading = styled.h1`
+  color: #076069;
 `;
 
 export default PageHeading;
