@@ -91,7 +91,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # 15. show how it is being export it and used in the ``index.js`` file
 # 16. Start by dividing the ``App.js`` component to smaller components.
 # 17. create a folder components to put our new baby 👶 🍼 components in.
-# 18. Create the ```Heading.js``` and notice here the component name is Capitalized but the folder for the components is lowercase ( Very good practice please follow)
+# 18. Create the ```PageHeading.js``` and notice here the component name is Capitalized but the folder for the components is lowercase ( Very good practice please follow)
 # 19. Write a Heading functional component and export it
 # 20. use the Heading component in the App.js and delete the old heading title we had.
 # 21. Create a Paragraph Component
