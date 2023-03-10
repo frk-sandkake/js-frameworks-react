@@ -68,39 +68,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-## Teaching Parts
-
-# 1. Show the end Result Project ✅
-# 2. Explain The App.js and how it works : The index.js is the entry point for the
-# whole app it goes and finds an element with an id of root `document.getElementById('root')`
-# and attach the App.js. ✅
-# 3. the element with id ``root`` is in public folder in the ``index.html`` ✅
-# 4. Show how to add google fonts to react JS CRA project. Use the index.html  ✅
-# 5. Reminds that the CSS will be loaded before anything else , before even the JS gets loaded.  ✅
-# 6. Get rid of the initial styles on the project in the index.css  ✅
-# 7. use the new font-family we get from Google Fronts on the body tag
-# 8. Explain the App.js Functional component and how it works  ✅
-# 9. Explain why we use className to have classes and not class ( We use className because it is a reserved word in JS ) 
-# The code in the App.js looks like it is ``HTML`` but it not, it is JSX ( It is a mixer of JavaScript and HTML ) ✅
-# 10. Show how the logo is being imported and used.
-# 11. Start to code,  Delete everything in the App.js and start coding.
-# 12. Start at the App.js add class container
-# 13. Write some CSS for the Class container
-# 14. Explain what is a components and how the ``App.js`` is working at this point
-# 15. show how it is being export it and used in the ``index.js`` file
-# 16. Start by dividing the ``App.js`` component to smaller components.
-# 17. create a folder components to put our new baby 👶 🍼 components in.
-# 18. Create the ```PageHeading.js``` and notice here the component name is Capitalized but the folder for the components is lowercase ( Very good practice please follow)
-# 19. Write a Heading functional component and export it
-# 20. use the Heading component in the App.js and delete the old heading title we had.
-# 21. Create a Paragraph Component
-# 22. Create a List Component
-# 23. In the List Component add an extra Item and you will notice that the DOM is updated
-
-#### Homework for this lesson:
-
-### Familiarize yourself with the React documentation :
-https://reactjs.org/docs/introducing-jsx.html
-
-### 2. Redo the whole example from scratch.
