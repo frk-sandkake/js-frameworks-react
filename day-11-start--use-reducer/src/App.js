@@ -1,12 +1,12 @@
 import './App.css';
-import HandleClick from "./components/BasicExample";
 import ProductExample from "./components/ProductExample";
+// import BasicExample from "./components/BasicExample";
 
 function App() {
   return (
-    <div className="App">
-        <ProductExample/><br/>
-        <HandleClick/>
+    <div>
+      {/*<BasicExample/>*/}
+      <ProductExample/>
     </div>
   );
 }
