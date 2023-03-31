@@ -5,11 +5,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    background-color: #fad9d9;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ul {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+li {
+  list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: start;
+}
+
+label {
+  font-size: 24px;
+  margin: 24px;
+}
+
+input {
+    font-size: 18px;
+    padding: 4px 8px;
+    margin: 24px;
+    border-radius: 4px;
 }
 
 span {
@@ -22,7 +47,7 @@ button {
     background-color: #166918; /* Green */
     border: none;
     border-radius: 4px;
-    color: white;
+    color: #faf3f3;
     padding: 4px 24px;
     text-align: center;
     text-decoration: none;
@@ -30,4 +55,8 @@ button {
     font-size: 24px;
     margin: 2px;
     cursor: pointer;
+}
+
+.BTN-Danger {
+    background-color: #af01bb; /* Magenta */
 }

@@ -1,44 +1,24 @@
-import React, {useReducer} from "react";
+import React from 'react';
+import {useState} from "react";
 
-const initialState = {count: 0};
-
-function reducer(state, action) {
-    switch (action.type) {
-        case 'increment':
-            return {count: state.count + 1};
-        case 'decrement':
-            return {count: state.count - 1};
-        case 'reset':
-            return initialState;
-        default:
-            throw new Error();
-    }
-}
-
-
-const HandleClick = () => {
-    const [state, dispatch] = useReducer(reducer, initialState);
+const BasicExample = () => {
+    const [count, setCount] = useState(0);
 
     function increment() {
-       dispatch({type: 'increment'});
+        setCount(prevCount => prevCount + 1);
     }
 
     function decrement() {
-        dispatch({type: 'decrement'});
-    }
-
-    function reset() {
-        dispatch({type: 'reset'});
+        setCount(prevCount => prevCount - 1);
     }
 
     return (
         <>
             <button onClick={decrement}>-</button>
-            <span>{state.count}</span>
-            <button onClick={increment}>+</button><br/>
-            <button onClick={reset}>Reset</button>
+            <span>{count}</span>
+            <button onClick={increment}>+</button>
         </>
     );
 };
 
-export default HandleClick;
+export default BasicExample;
